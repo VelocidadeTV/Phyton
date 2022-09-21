@@ -1,0 +1,11 @@
+
+
+
+import androidhelper
+
+
+
+
+droid = androidhelper.Android()
+message = droid.dialogGetInput('TTS', 'Digite sua Fala').result
+droid.ttsSpeak(message)
